@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+crowdfunding = "56CK4VC9iRf2Fn3jx9G2hoesvY8YGvhRmfSck8dEbcej"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/sanskar/.config/solana/id.json"
+
+[scripts]
+test = "node tests/crowdfunding.js"
